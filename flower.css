@@ -10,8 +10,10 @@
   box-sizing: border-box;
   box-shadow: 4px 4px 20px rgba(61, 74, 192, 0.7);
   border-radius: 50% 0;
-  animation-duration: 3s;
   animation-name: rotate-diag-cent-NE-SW;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 1s;
 }
 
 .back_petal_SE {
@@ -26,8 +28,11 @@
   box-sizing: border-box;
   box-shadow: 4px 4px 20px rgba(61, 74, 192, 0.7);
   border-radius: 0 50%;
-  animation-duration: 3s;
   animation-name: rotate-diag-cent-NW-SE;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 5s;
+  animation-delay: 1.5s;
 }
 
 .front_petal_S {
@@ -58,7 +63,9 @@
   box-shadow: 4px 4px 20px rgba(61, 74, 192, 0.7);
   border-radius: 50% 0;
   animation-name: rotate-diag-cent-NE-SW;
-  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  animation-delay: 2s;
 }
 
 .front_petal_E {
@@ -89,8 +96,11 @@
   box-sizing: border-box;
   box-shadow: 4px 4px 20px rgba(61, 74, 192, 0.7);
   border-radius: 0 50%;
-  animation-duration: 3s;
   animation-name: rotate-diag-cent-NW-SE;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-duration: 5s;
+  animation-delay: 0s;
 }
 
 .front_petal_N {
@@ -106,6 +116,8 @@
   box-shadow: 4px 4px 20px rgba(61, 74, 192, 0.7);
   border-radius: 50% 0;
   transform: rotate(135deg);
+  animation-name: front-moves;
+  animation-duration: 3s;
 }
 
 .front_petal_W {
